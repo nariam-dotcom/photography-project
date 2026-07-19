@@ -1,5 +1,5 @@
 # photography-project
-week 2 assignment to create a photography site
+Week 2 assignment to create a photography site
 ## Features
 ## Technologies
 - html
