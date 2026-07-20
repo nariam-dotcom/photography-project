@@ -1,40 +1,27 @@
-.hero {
-    height: 100vh;
-    background: url("images/hero.jpg") center/cover no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
+
+.pics {
+    display: grid;
+    grid-template-columns:   repeat( 3, 3fr);
+    gap: 20px;
+    padding: 20px;
 }
 
-.hero-content {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 40px;
-    border-radius: 10px;
+.pics img {
+    width: 250px ;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
 }
-
-.hero h1 {
-    font-size: 60px;
-    margin-bottom: 20px;
+*{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background: linear-gradient(to bottom, rgb(161, 216, 227), brown);
+font-size: large;
+font-weight: bold;
+text-align: center;
 }
+.head {
+    font-weight: bolder;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-.hero p {
-    font-size: 22px;
-    margin-bottom: 30px;
-    max-width: 700px;
-}
-
-.btn {
-    background: #ff9800;
-    color: white;
-    padding: 15px 30px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 18px;
-    transition: 0.3s;
-}
-
-.btn:hover {
-    background: #e68900;
 }
