@@ -74,3 +74,47 @@ color: rgb(57, 7, 4);
     cursor: pointer;
     border-radius: 5px;
 }
+
+.contact {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact button {
+    background-color: #333;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
+.bio-image {
+    height: auto;
+    width: auto;
+}
