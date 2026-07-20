@@ -1,9 +1,9 @@
 
 .pics {
     display: grid;
-    grid-template-columns:   repeat( 3, 3fr);
-    gap: 20px;
-    padding: 20px;
+    grid-template-columns:   repeat( 4, 1fr);
+    gap: 24px;
+    padding: 15px;
 }
 
 .pics img {
@@ -30,16 +30,16 @@ color: rgb(57, 7, 4);
 }
 .hair {
     font-family: Georgia, 'Times New Roman', Times, serif ;
-    background: linear-gradient( to top, rgb(213, 169, 213), rgb(209, 162, 162));
+    /* background: linear-gradient( to top, rgb(213, 169, 213), rgb(209, 162, 162)); */
     font-weight: lighter;
 }
 .tats {
     font-weight: lighter;
-    background: linear-gradient(to bottom,  rgb(179, 141, 141), rgb(212, 120, 212));
+    /* background: linear-gradient(to bottom,  rgb(179, 141, 141), rgb(212, 120, 212)); */
 }
 .pets {
     font-weight: lighter;
-    background: linear-gradient(to top, rgb(195, 121, 121), rgb(125, 81, 125));
+    /* background: linear-gradient(to top, rgb(195, 121, 121), rgb(125, 81, 125)); */
 }
 .start {
     font-weight: lighter;
@@ -51,7 +51,7 @@ color: rgb(57, 7, 4);
     background-repeat: no-repeat;
     background-size: cover;
     height:100%;
-    width: 100vh;
+    min-width: 200px;
 
     display: grid;
     justify-content: center;
@@ -115,6 +115,18 @@ color: rgb(57, 7, 4);
     background-color: #555;
 }
 .bio-image {
-    height: auto;
-    width: auto;
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-left: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.gallery {
+    background-color: rgb(151, 201, 201);
+}
+.bio-section {
+    padding: 30px;
+    overflow: auto;
+    text-align: left;
 }
