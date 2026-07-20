@@ -25,11 +25,21 @@ color: rgb(57, 7, 4);
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: brown;
+    text-decoration: underline;
 
 }
 .hair {
-    font-family: Georgia, 'Times New Roman', Times, serif
-    ;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    background: linear-gradient( to top, rgb(213, 169, 213), rgb(209, 162, 162));
+    font-weight: lighter;
+}
+.tats {
+    font-weight: lighter;
+    background: linear-gradient(to bottom,  rgb(179, 141, 141), rgb(212, 120, 212));
+}
+.pets {
+    font-weight: lighter;
+    background: linear-gradient(to top, rgb(195, 121, 121), rgb(125, 81, 125));
 }
 .start {
     font-weight: lighter;
