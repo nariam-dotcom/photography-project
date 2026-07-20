@@ -9,5 +9,8 @@ Week 2 assignment to create a photography site
 - create project directory... mkdir photography-project
 - initialize git in the directory... cd photography-project, git init
 - make and stage the home page... touch index.html, git add index.html
+- 
+## Author 
+- Nariam Maureen
 ## Licences 
 - no licence
