@@ -18,8 +18,9 @@ background: linear-gradient(to bottom, rgb(161, 216, 227), brown);
 font-size: large;
 font-weight: bold;
 text-align: center;
+color: antiquewhite;
 }
-.head {
+.header {
     font-weight: bolder;
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -34,5 +35,32 @@ text-align: center;
     text-align: left;
 }
 .hero {
-    
+    background-image: url("pics/hero.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    height: 400px;
+    width: 400px;
+    position: ;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .hero-content {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+} */
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
 }
