@@ -25,3 +25,11 @@ text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+.hair {
+    font-family: Georgia, 'Times New Roman', Times, serif
+    ;
+}
+.start {
+    font-weight: lighter;
+    text-align: left;
+}
