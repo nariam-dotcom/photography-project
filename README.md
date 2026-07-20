@@ -13,8 +13,9 @@ Week 2 assignment to create a photography site
 - push project to repository
 - add website and github link
 ## github link
+- https://github.com/nariam-dotcom/photography-project
 ## website url
-
+- https://nariam-dotcom.github.io/photography-project/
 ## Author 
 - Nariam Maureen
 ## Licences 

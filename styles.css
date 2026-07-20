@@ -14,16 +14,17 @@
 }
 *{
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-background: linear-gradient(to bottom, rgb(161, 216, 227), brown);
+/* background: linear-gradient(to bottom, rgb(161, 216, 227), brown); */
 font-size: large;
 font-weight: bold;
 text-align: center;
-color: antiquewhite;
+color: rgb(57, 7, 4);
 }
 .header {
     font-weight: bolder;
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
 
 }
 .hair {
@@ -38,23 +39,22 @@ color: antiquewhite;
     background-image: url("pics/hero.jpeg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 200px;
-    height: 400px;
-    width: 400px;
-    position: ;
+    background-size: cover;
+    height:100%;
+    width: 100vh;
 
     display: grid;
     justify-content: center;
     align-items: center;
 }
 
-/* .hero-content {
+.hero-content {
     text-align: center;
-    color: white;
+    color: rgb(247, 243, 243);
     background-color: rgba(0, 0, 0, 0.5);
     padding: 30px;
     border-radius: 10px;
-} */
+}
 
 .hero button {
     padding: 10px 20px;
